@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from typing import List
 """
 5-sum_list.py
 
@@ -9,6 +8,7 @@ This module is used to calculate the sum of all elements in a list of numbers.
 
 Author: Malik Hussein
 """
+from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
