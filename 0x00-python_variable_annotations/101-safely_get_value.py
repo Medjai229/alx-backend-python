@@ -2,7 +2,7 @@
 """
 101-safely_get_value.py
 
-Safely retrieves a value from a dictionary.
+Duck typing.
 
 This module is used to safely retrieve a value from a dictionary
 returning a default value if the key is not found.
