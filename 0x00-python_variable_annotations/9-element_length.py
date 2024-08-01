@@ -2,7 +2,7 @@
 """
 9-element_length.py
 
-A simple utility module that provides an element_length function.
+Duck typing.
 
 This module is used to calculate the length of each element in a given list.
 
