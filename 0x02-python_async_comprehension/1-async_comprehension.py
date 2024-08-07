@@ -11,10 +11,12 @@ of numbers from the async_generator function in 0-async_generator.py.
 Author: Malik Hussein
 """
 
+from typing import List
+
 async_generator = __import__('0-async_generator').async_generator
 
 
-async def async_comprehension():
+async def async_comprehension() -> List[float]:
     """
     Asynchronously generates a list of numbers using async comprehension.
 

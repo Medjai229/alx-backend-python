@@ -13,9 +13,10 @@ Author: Malik Hussein
 
 import asyncio
 import random
+from typing import AsyncGenerator
 
 
-async def async_generator():
+async def async_generator() -> AsyncGenerator[float, None, None]:
     """
     Asynchronously generates and yields a sequence of random numbers.
 
